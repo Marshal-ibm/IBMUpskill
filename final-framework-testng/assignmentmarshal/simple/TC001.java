@@ -19,9 +19,7 @@ public class TC001 {
 		driver.get("https://www.google.com");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driver.get("http://elearningm1.upskills.in/");
-		driver.findElement(By.id("login")).sendKeys("admin");
-		driver.findElement(By.id("password")).sendKeys("admin123");	
+		driver.get("http://retail.upskills.in/");
 		
 	}
 }
