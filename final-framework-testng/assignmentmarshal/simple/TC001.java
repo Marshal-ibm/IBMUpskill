@@ -12,12 +12,16 @@ public class TC001 {
 	@Test
 	public void login()
 	{
-		WebDriver driver= new ChromeDriver();
+		//WebDriver driver= new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver","C:\\OnlineTraining\\SDET Oct 2018\\dependencies\\chromedriver.exe");
+		WebDriver driver =new ChromeDriver();
+		//String baseUrl = "https://www.google.com";
+		driver.get("https://www.google.com");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driver.get("http://magento.com");
-		driver.findElement(By.id("fa-user")).click();
-			
+		driver.get("http://elearningm1.upskills.in/");
+		driver.findElement(By.id("login")).sendKeys("admin");
+		driver.findElement(By.id("password")).sendKeys("admin123");	
 		
 	}
 }
