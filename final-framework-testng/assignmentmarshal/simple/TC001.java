@@ -17,8 +17,7 @@ public class TC001 {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get("http://magento.com");
 		driver.findElement(By.id("fa-user")).click();
-		driver.quit();
-		
+			
 		
 	}
 }
