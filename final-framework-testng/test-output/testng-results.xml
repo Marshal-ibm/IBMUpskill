@@ -2,16 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-11-18T01:55:42 IST" name="Default suite" finished-at="2019-11-18T01:55:59 IST" duration-ms="16901">
+  <suite started-at="2019-11-18T04:47:07 IST" name="Default suite" finished-at="2019-11-18T04:47:53 IST" duration-ms="46468">
     <groups>
     </groups>
-    <test started-at="2019-11-18T01:55:42 IST" name="Default test" finished-at="2019-11-18T01:55:59 IST" duration-ms="16901">
-      <class name="simple.TC001">
-        <test-method signature="login()[pri:0, instance:simple.TC001@184cf7cf]" started-at="2019-11-18T01:55:42 IST" name="login" finished-at="2019-11-18T01:55:59 IST" duration-ms="16863" status="PASS">
+    <test started-at="2019-11-18T04:47:07 IST" name="Default test" finished-at="2019-11-18T04:47:53 IST" duration-ms="46468">
+      <class name="simple.RTTC_005">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:simple.RTTC_005@12d4bf7e]" started-at="2019-11-18T04:47:07 IST" name="precondition" finished-at="2019-11-18T04:47:32 IST" duration-ms="25533" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- simple.TC001 -->
+        </test-method> <!-- precondition -->
+        <test-method signature="register()[pri:0, instance:simple.RTTC_005@12d4bf7e]" started-at="2019-11-18T04:47:32 IST" name="register" finished-at="2019-11-18T04:47:53 IST" duration-ms="20888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+      </class> <!-- simple.RTTC_005 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
