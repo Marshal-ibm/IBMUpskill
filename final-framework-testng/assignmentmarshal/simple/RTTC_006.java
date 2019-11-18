@@ -1,3 +1,5 @@
+// If you run this TC just after RTTC_005 please use line no.#41 else line no.#42
+
 package simple;
 
 import java.util.concurrent.TimeUnit;
@@ -35,8 +37,10 @@ public class RTTC_006 {
 		action.moveToElement(user).perform();
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//*[@id=\"Menu_Wmt3OMY3\"]/nav/ul/li[2]/ul/li[1]/a/span/span/i")).click();
-		driver.findElement(By.id("input-email")).sendKeys("massu.ju1@gmail.com");
-		driver.findElement(By.id("input-password")).sendKeys("marshal@123");
+		// If you run this TC just after RTTC_005 please use line no.#41 else line no.#42
+		driver.findElement(By.id("input-email")).sendKeys("revasharma@gmail.com");
+		//driver.findElement(By.id("input-email")).sendKeys("massu.ju1@gmail.com");
+		driver.findElement(By.id("input-password")).sendKeys("massu123");
 		driver.findElement(By.xpath("//*[@class=\"pull-right\"]/input")).click();
 		driver.findElement(By.linkText("Change your password")).click();
 		driver.findElement(By.id("input-password")).sendKeys("reva123");

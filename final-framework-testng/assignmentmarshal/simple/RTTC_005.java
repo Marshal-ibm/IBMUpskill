@@ -36,7 +36,7 @@ public class RTTC_005 {
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//*[@id=\"Menu_Wmt3OMY3\"]/nav/ul/li[2]/ul/li[1]/a/span/span/i")).click();
 		driver.findElement(By.id("input-email")).sendKeys("massu.ju1@gmail.com");
-		driver.findElement(By.id("input-password")).sendKeys("marshal@123");
+		driver.findElement(By.id("input-password")).sendKeys("massu123");
 		driver.findElement(By.xpath("//*[@class=\"pull-right\"]/input")).click();
 		//Thread.sleep(3000);
 		//driver.findElement(By.xpath("//*[@id=\"Menu_Wmt3OMY3\"]/nav/ul/li[2]/a/span/span/i")).click();

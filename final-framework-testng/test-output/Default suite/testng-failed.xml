@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="simple.RTTC_005">
+      <class name="simple.RTTC_006">
         <methods>
           <include name="precondition"/>
           <include name="register"/>
         </methods>
-      </class> <!-- simple.RTTC_005 -->
+      </class> <!-- simple.RTTC_006 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
